@@ -1,4 +1,26 @@
-h1{
-    color:green;
-    font: size 28px;
+header{
+    display: flex;
+    height: 60px;
+    background-color: #252525;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.botonnav{
+    border: none;
+    margin: 10px;
+    background: none;
+    color: hsl(0, 0%, 79%);
+    font-size: smaller;
+}
+.cont-boton button:hover{
+    color: rgb(231, 112, 68);
 }
